@@ -106,6 +106,12 @@
               "src/assets/js/script.js"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/EmporioPinhalv1/"
+          }
         }
       }
     }
