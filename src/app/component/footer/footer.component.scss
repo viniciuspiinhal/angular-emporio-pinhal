@@ -1,0 +1,75 @@
+/* RODAPÉ */
+footer{
+  background-color: #010101;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.container_rodape{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+/* .container_rodape *{
+  flex: 1;
+} */
+
+.links_footer{
+  display: flex;
+  flex: 1;
+  color: #ffffff;
+  justify-content: space-around;
+}
+
+.links_footer a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+footer .box_logo{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_logo .logo{
+  height: 30px;
+  width: 282px;
+}
+
+.info_contato{
+  color: #ffffff;
+  flex: 1;
+}
+
+.info_contato form{
+  display: flex;
+}
+
+.info_contato form *{
+  border: none;
+  padding: 2px 12px;
+  font-size: 24px;
+}
+
+.info_contato input{
+  width: 60%;
+}
+
+.info_contato button{
+  background-color: #001F70;
+  color: #ffffff;
+}
+
+.siganos{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.siganos img{
+  margin: 10px;
+}
+

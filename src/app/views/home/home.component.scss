@@ -1,0 +1,180 @@
+
+
+
+/* BANNER */
+.banner{
+    height: 900px;
+    background-size: cover;
+}
+
+.banner-f1{
+    background-image: url(/assets/img/banner_pilotos.png)
+}
+
+.banner-cs{
+    background-image: url(/assets/img/banner_cs.png);
+}
+
+.banner-lol{
+    background-image: url(/assets/img/banner_lol.png);
+}
+
+.posicao_texto{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.texto_banner{
+    color: #ffffff;
+    text-align: center;
+}
+
+.texto_banner span{
+    font-size: 80px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.texto_banner p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
+.texto_banner a{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #11ca20;
+    padding: 12px 32px;
+    border-radius: 10px;
+    position: relative;
+    top:400px;
+    left: 600px;
+}
+
+
+
+
+
+
+
+
+
+/* SEÇÂO JOGOS */
+.secao_jogos{
+    background-color: #000000;
+}
+
+/* .linha_jogos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 120px;
+} */
+
+.linha_jogos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+/* SEÇÂO OFERTAS */
+.ofertas{
+    background-color: #1E1C21;
+    padding: 30px;
+}
+
+h2{
+    color: #ffffff;
+}
+
+.secao_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 215px;
+    margin: 20px;
+    box-shadow: 0 0 20px #000;
+    background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgb(100, 100, 100) 100%);
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.card a{
+    text-decoration: none;
+    background-color: #C31616;
+    padding: 7px 38px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.card *:not(:first-child){
+    margin: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+/* SEÇÂO LIGAS */
+.section_ligas{
+    background-image: url(/assets/img/FundoLigas.png);
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box_ligas{
+    display: flex;
+    color: #ffffff;
+}
+
+.box_ligas img{
+    margin-left: 5%;
+    height: 95%;
+}
+
+.liga_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.liga_texto h2{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
