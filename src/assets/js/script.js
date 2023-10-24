@@ -17,33 +17,33 @@ function mostrarMenuJquery() {
 
 // DOM -> Document Object Model
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-    let listaSlides = ["banner-f1", "banner-cs", "banner-lol"]
-    let slideAtual = 1
+//     let listaSlides = ["banner-f1", "banner-cs", "banner-lol"]
+//     let slideAtual = 1
 
-    function mudarSlide() {
-        // console.log(slideAtual)
+//     function mudarSlide() {
+//         // console.log(slideAtual)
 
-        // Remove o slide anterior
-        if (slideAtual > 0) {
-            $(".banner").removeClass(listaSlides[slideAtual - 1])
-        } else {
-            $(".banner").removeClass(listaSlides[ (listaSlides.length - 1) ])
-        }
+//         // Remove o slide anterior
+//         if (slideAtual > 0) {
+//             $(".banner").removeClass(listaSlides[slideAtual - 1])
+//         } else {
+//             $(".banner").removeClass(listaSlides[ (listaSlides.length - 1) ])
+//         }
 
-        // Mostra o slide atual da lista de slides
-        $(".banner").addClass(listaSlides[slideAtual])
+//         // Mostra o slide atual da lista de slides
+//         $(".banner").addClass(listaSlides[slideAtual])
 
-        // Incrementa a variável slideAtual
-        slideAtual++
+//         // Incrementa a variável slideAtual
+//         slideAtual++
 
-        if (slideAtual > (listaSlides.length - 1) ) {
-            slideAtual = 0
-        }
+//         if (slideAtual > (listaSlides.length - 1) ) {
+//             slideAtual = 0
+//         }
 
-    }
+//     }
 
-    setInterval(mudarSlide, 2000)
+//     setInterval(mudarSlide, 2000)
 
-})
+// })

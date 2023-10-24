@@ -2,11 +2,16 @@
 
 
 /* BANNER */
+
+
 .banner{
     height: 900px;
     background-size: cover;
 }
 
+.banner-principal {
+  width: 100%;
+}
 .banner-f1{
     background-image: url(/src/assets/img/banner_pilotos.png)
 }
@@ -28,7 +33,6 @@
 
 .texto_banner{
     color: #ffffff;
-    text-align: center;
 }
 
 .texto_banner span{
@@ -42,18 +46,18 @@
     margin-bottom: 80px;
 }
 
+.quadrado-texto{
+  background-color: greenyellow;
+}
 .texto_banner a{
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     text-transform: uppercase;
     text-decoration: none;
-    background-color: #11ca20;
-    padding: 12px 32px;
-    border-radius: 10px;
     position: relative;
-    top:400px;
-    left: 600px;
+    width: max-content;
+    padding-left: 40%;
 }
 
 
